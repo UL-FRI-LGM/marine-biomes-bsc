@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a772021f1de38c6428926e4250460c16, type: 3}
+  m_Name: Biome_Fire
+  m_EditorClassIdentifier: 
+  Name: Millepora dichotoma
+  ObjectPlacer: {fileID: 7883166524934457610, guid: cdd015bdf705e1844944d1223e956e8b,
+    type: 3}
+  GrowthRateAdvantage: 0.7
+  TemperatureSensitivity: -0.1
+  LightRequirements: 0.6
+  CompetitiveAbilities: 0.7
+  Resilience: 0.6
+  MinIntensity: 0.3
+  MaxIntensity: 0.8
+  MinDecayRate: 0.1
+  MaxDecayRate: 0.2

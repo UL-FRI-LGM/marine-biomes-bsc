@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e206d980e9bbe34499baa432be041019, type: 3}
+  m_Name: ProcGen Config
+  m_EditorClassIdentifier: 
+  Biomes:
+  - Biome: {fileID: 11400000, guid: a3329f3d792a62646b6f9bbc9307b95f, type: 2}
+    Weighting: 0.12
+  - Biome: {fileID: 11400000, guid: 7d60c10b63c776e4cbd77c2327484472, type: 2}
+    Weighting: 0.03
+  - Biome: {fileID: 11400000, guid: a7fdb54e33ec25847abc52f114290c09, type: 2}
+    Weighting: 0.08
+  - Biome: {fileID: 11400000, guid: 80169ea659970b848b9cca862b1576ab, type: 2}
+    Weighting: 0.1
+  - Biome: {fileID: 11400000, guid: 2cc641bc006b04b48bdafd98bfce607d, type: 2}
+    Weighting: 0.05
+  - Biome: {fileID: 11400000, guid: c240930b11f7b1a429489275f0e3f404, type: 2}
+    Weighting: 0.08
+  - Biome: {fileID: 11400000, guid: 80d685873ee95c34a81d37c442016b72, type: 2}
+    Weighting: 1
+  BiomeSeedPointDensity: 0.1
+  BiomeMapResolution: 128
